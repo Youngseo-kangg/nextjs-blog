@@ -1,3 +1,9 @@
+import Layout from '../../components/layout';
+
 export default function Me() {
-  return <h1>Me</h1>;
+  return (
+    <Layout>
+      <h1>Me</h1>
+    </Layout>
+  );
 }
